@@ -7,11 +7,10 @@ class Dog
   end
   def initialize(breed)
     if breed == ""
-      @breed= "Mutt"
-    else
-      @breed = name
+      breed = "Mutt"
+      @breed = breed
     end
-    end
+  end
     def breed=(breed)
       @breed = breed
     end
