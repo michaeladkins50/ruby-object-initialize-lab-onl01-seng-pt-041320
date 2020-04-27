@@ -11,7 +11,10 @@ class Dog
     else
       @breed = name
     end
-  end
+    end
+    def breed=(breed)
+      @breed = breed
+    end
   def breed
     @breed
   end
